@@ -3,6 +3,6 @@
 // the number of people you are inviting to dinner.
 let invitation : string []= ["Ali","Umair","Amin","Uzair","Rauf"]
 invitation.forEach(guest => {
-    console.log(`Hello ${invitation} you are invited for dinner`);
+    console.log(`Hello ${guest} you are invited for dinner`);
     
 });
